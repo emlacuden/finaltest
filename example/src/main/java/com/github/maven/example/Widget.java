@@ -33,4 +33,8 @@ public class Widget {
 		this.enabled = enabled;
 		return this;
 	}
+	public String thisIsABug() {
+		String str =null;
+		return str.toUpperCase();
+	}
 }
